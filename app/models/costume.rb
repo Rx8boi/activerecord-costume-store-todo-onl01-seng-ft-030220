@@ -12,4 +12,5 @@ class Costume < ActiveRecord::Base
       timestamp :created_at
       timestamp :updated_at
     end
+  end
 end
