@@ -9,7 +9,7 @@
 # value types according to the spec
 
 
-class CreateCostumes< ActiveRecord::Migration[4.2]
+class CreateCostumes < ActiveRecord::Migration[4.2]
 
   def change
     create_table :costumes do |t|
@@ -21,6 +21,4 @@ class CreateCostumes< ActiveRecord::Migration[4.2]
       timestamp :updated_at
     end
   end
-end
-
 end
