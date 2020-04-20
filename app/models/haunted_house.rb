@@ -13,5 +13,5 @@ class HauntedHouse < ActiveRecord::Migration[4.2]
       t.datetime :closing
       t.text :long_description
     end
-    end
+  end
 end
